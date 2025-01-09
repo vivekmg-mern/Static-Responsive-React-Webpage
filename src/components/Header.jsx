@@ -3,6 +3,7 @@ import { Container, Nav, Navbar, } from 'react-bootstrap'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 import Home from '../pages/Home';
+import Icon from '/src/assets/Icon Final.png'
 
 
 
@@ -14,7 +15,7 @@ function Header() {
         <div>
     <Navbar style={{zIndex:1}} expand="lg" className="bg-body-light">
       <Container>
-        <Link to={'/'} ><Navbar.Brand href="#home"><img src={'./src/assets/Icon Final.png'} alt="" srcset="" width={'120px'} /></Navbar.Brand></Link>
+        <Link to={'/'} ><Navbar.Brand href="#home"><img src={Icon} alt="" srcset="" width={'120px'} /></Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

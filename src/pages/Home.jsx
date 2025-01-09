@@ -6,14 +6,14 @@ import cars from '/src/assets/cars-2060420_1280.jpg'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Footer from '../components/Footer';
-import '/src/assets/fire-fighters-1045906_640.jpg'
-import '/src/assets/toy-2127789_640.jpg'
-import '/src/assets/model-car-5086785_640.jpg'
-import '/src/assets/minion-972908_640.jpg'
-import '/src/assets/teddy-bear-524251_640.jpg'
-import '/src/assets/chess-3467512_640.jpg'
-import '/src/assets/childrens-toys-7179337_640.jpg'
-import '/src/assets/knitting-1614283_640.jpg'
+import fire from '/src/assets/fire-fighters-1045906_640.jpg'
+import toy from '/src/assets/toy-2127789_640.jpg'
+import model_car from  '/src/assets/model-car-5086785_640.jpg'
+import minion from '/src/assets/minion-972908_640.jpg'
+import teddy_bear from '/src/assets/teddy-bear-524251_640.jpg'
+import chess from '/src/assets/chess-3467512_640.jpg'
+import childrens from '/src/assets/childrens-toys-7179337_640.jpg'
+import knitting from '/src/assets/knitting-1614283_640.jpg'
 
 const Home = () => {
   return (
@@ -49,7 +49,7 @@ const Home = () => {
 <div  className='row d-flex flex-row p-2 bd-highlight justify-content-center align-self-center m-5 '>
     <div className='col-lg'>
     <Card style={{ width: '18rem', margin:'10px', height:'auto', border:'solid pink'}}>
-      <Card.Img variant="top" src="/src/assets/fire-fighters-1045906_640.jpg" />
+      <Card.Img variant="top" src={fire} />
       <Card.Body>
         <Card.Title>Toy Car</Card.Title>
         <Card.Text>
@@ -62,7 +62,7 @@ const Home = () => {
 
     <div className='col-lg'>
     <Card style={{ width: '18rem', margin:'10px', height:'auto', border:'solid pink'  }}>
-      <Card.Img variant="top" src="/src/assets/toy-2127789_640.jpg" />
+      <Card.Img variant="top" src={toy} />
       <Card.Body>
         <Card.Title>Crane Truck</Card.Title>
         <Card.Text>
@@ -75,7 +75,7 @@ const Home = () => {
 
 <div className='col-lg'>
     <Card style={{ width: '18rem', margin:'10px',height:'auto', border:'solid pink'  }}>
-      <Card.Img variant="top" src="/src/assets/model-car-5086785_640.jpg" />
+      <Card.Img variant="top" src={model_car} />
       <Card.Body>
         <Card.Title>Toy car-Topless</Card.Title>
         <Card.Text>
@@ -88,7 +88,7 @@ const Home = () => {
 
     <div className='col-lg'>
     <Card style={{ width: '18rem', margin:'10px',height:'auto', border:'solid pink'  }}>
-      <Card.Img variant="top" src="/src/assets/minion-972908_640.jpg" />
+      <Card.Img variant="top" src={minion} />
       <Card.Body>
         <Card.Title>Minion Fun Toy</Card.Title>
         <Card.Text>
@@ -101,7 +101,7 @@ const Home = () => {
 
     <div className='col-lg'>
     <Card style={{ width: '18rem', margin:'10px', height:'auto', border:'solid pink'  }}>
-      <Card.Img variant="top" src="/src/assets/teddy-bear-524251_640.jpg" />
+      <Card.Img variant="top" src={teddy_bear} />
       <Card.Body>
         <Card.Title>Teddy Bear</Card.Title>
         <Card.Text>
@@ -114,7 +114,7 @@ const Home = () => {
 
     <div className='col-lg'>
     <Card style={{ width: '18rem', margin:'10px',height:'auto', border:'solid pink'}}>
-      <Card.Img style={{height:'185px'}} variant="top" src="/src/assets/chess-3467512_640.jpg" />
+      <Card.Img style={{height:'185px'}} variant="top" src={chess} />
       <Card.Body >
         <Card.Title>Chess Set</Card.Title>
         <Card.Text>
@@ -127,7 +127,7 @@ const Home = () => {
 
     <div className='col-lg'>
     <Card style={{ width: '18rem', margin:'10px',height:'auto', border:'solid pink'}}>
-      <Card.Img style={{height:'185px'}} variant="top" src="/src/assets/childrens-toys-7179337_640.jpg" />
+      <Card.Img style={{height:'185px'}} variant="top" src={childrens} />
       <Card.Body >
         <Card.Title>Hot Wheels</Card.Title>
         <Card.Text>
@@ -141,7 +141,7 @@ const Home = () => {
 
     <div className='col-lg'>
     <Card style={{ width: '18rem', margin:'10px',height:'auto', border:'solid pink'}}>
-      <Card.Img style={{height:'185px'}} variant="top" src="/src/assets/knitting-1614283_640.jpg" />
+      <Card.Img style={{height:'185px'}} variant="top" src={knitting} />
       <Card.Body >
         <Card.Title>Knitted Teddys</Card.Title>
         <Card.Text>
