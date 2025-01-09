@@ -1,6 +1,7 @@
 import React from 'react'
 import './Landing.css'
 import { Link } from 'react-router-dom'
+import '/src/assets/Icon Final.png'
 
 const Landing = () => {
   return (
