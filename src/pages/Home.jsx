@@ -6,7 +6,14 @@ import cars from '/src/assets/cars-2060420_1280.jpg'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Footer from '../components/Footer';
-
+import '/src/assets/fire-fighters-1045906_640.jpg'
+import '/src/assets/toy-2127789_640.jpg'
+import '/src/assets/model-car-5086785_640.jpg'
+import '/src/assets/minion-972908_640.jpg'
+import '/src/assets/teddy-bear-524251_640.jpg'
+import '/src/assets/chess-3467512_640.jpg'
+import '/src/assets/childrens-toys-7179337_640.jpg'
+import '/src/assets/knitting-1614283_640.jpg'
 
 const Home = () => {
   return (
